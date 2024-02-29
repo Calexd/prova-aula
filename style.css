@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.col1{
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+.col2, form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col2 {
+    padding-top: 100px;
+}
+
+form {
+    width: 260px;
+
+}
+
+form *{
+    margin-bottom: 14px;
+}
+
+
+form span{
+    text-align: center;
+}
+
+form input, form button{
+    border-radius: 6px;
+    height: 36px
+}
+
+form button{
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.dont-account{
+    position: absolute;
+    bottom: 42px;
+}
+
+.rss {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mt-14 {
+    margin-top: 14px;
+}
+
+.text-muted{
+    color: rgb(173, 173, 173);
+}
+
+.title {
+    font-size: 60px;
+}
